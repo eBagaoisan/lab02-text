@@ -5,10 +5,9 @@ using namespace std;
 
 int main(){
     int userInput;
-    int loop = 9001;
     cout<<"Please enter a number 0-9: ";
-    while(loop = 9001){
-        cin>>userInput;
+    while(cin>>userInput){
+        //cin>>userInput;
         switch(userInput){
             case 0 :
                 cout<<"zero"<<endl;
